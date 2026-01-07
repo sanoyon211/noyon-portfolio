@@ -7,7 +7,6 @@
 body{
   width: 1602px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .open-sans {
@@ -273,7 +272,7 @@ form h4{
   color: #181818;
   margin-bottom: 28px;
 }
-form input{
+form .text{
   display: block;
   margin-bottom: 24px;
   font-size: 16px;
@@ -284,14 +283,15 @@ form input{
   border: none;
   border-radius: 5px;
 }
-form textarea{
+#msg{
   display: block;
   margin-bottom: 24px;
   font-size: 16px;
   line-height: 28px;
   color: #757575;
-  padding: 18px 30px;
+  padding: 18px 0 120px 30px;
   width: 461px;
   border: none;
-  border-radius: 5px;
+  border-radius: 5px; 
+  
 }
