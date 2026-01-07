@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  width: 1600px;
+}
+
 .open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -15,9 +19,9 @@ header{
 }
 
 header nav{
-  width: 75%;
+  width: 71.25%;
   max-width: 1140px;
-  margin: 0 auto ;
+  margin: 0 232px 0 228px ;
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
@@ -45,7 +49,7 @@ header nav{
   font-weight: 400;
   color: #474747;
 }
-.menu li button{
+.btn{
   border: none;
   padding: 18px 35px;
   background-color: #FD6E0A;
@@ -53,5 +57,47 @@ header nav{
   font-size: 20px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 
+}
+
+#hero{
+  width: 83.25%;
+  max-width: 1332px;
+  margin: 46px 40px 0 228px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content{
+  max-width: 585px;
+}
+
+.hero-content h4{
+  font-size: 45px;
+  color: #474747;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.hero-content h1{
+  font-size: 85px;
+  color: #181818;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p{
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.hero-content div{
+  display: flex;
+  gap: 30px;
+}
+.hero-image img{
+  max-width: 585px;
+  vertical-align: middle;
 }
